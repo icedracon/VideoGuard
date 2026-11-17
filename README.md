@@ -49,6 +49,24 @@ The trial fixture is synthetic. See [Studio protocol and CLI contracts](referenc
 | **Image-to-Video Handoff** | Inspect supplied metadata and flag incompatible references. |
 | **Failure Debugger** | Trace observed failures and identify affected downstream steps. |
 
+## Methodology and safety
+
+VideoGuard combines named production and engineering methods. These are design patterns, not claims of academic validation or provider-native features.
+
+| Method | Application | Reference |
+| --- | --- | --- |
+| Grill Me / adaptive interviewing | Resolve high-impact uncertainties one question at a time | [RobMitt](https://github.com/RobMitt/grill-me-skill) |
+| SLCT (Subject, Lighting, Camera, Technical) | Structure visual prompts | [Creatify AI](https://github.com/Creatify-AI/ai-ad-prompt-guide) |
+| Character and reference sheets | Version recurring identities and approved attributes | [Square Zero Labs](https://github.com/Square-Zero-Labs/video-prompting-skill) |
+| Stage-gate QA | Review brief, reference and generated output | [Studio protocol](references/v4-studio.md) |
+| Fail-closed cost preflight | Treat missing quotes as unknown, not zero | [Higgsfield CLI](https://higgsfield.ai/blog/higgsfield-cli) |
+| Dependency-aware repair | Revisit impacted steps rather than blindly regenerate | [Engine](references/v3-engine.md) |
+| Paired A/B evaluation | Compare actual costs under matched settings | [Evaluation protocol](references/v4-studio.md) |
+
+**Data leakage prevention:** keep private reference assets, API keys, client briefs and project ledgers outside this public repository. Never send them to a generation provider without authorization. This is an operating guideline, not an implemented DLP scanner.
+
+<p align="center"><img src="assets/workflow.svg" alt="VideoGuard workflow from brief to approved generation, with feedback loop" width="100%"></p>
+
 ## Workflow
 
 ```mermaid
