@@ -11,7 +11,7 @@
 <rect width="1280" height="410" rx="22" fill="url(#grid)"/>
 <ellipse cx="1035" cy="135" rx="250" ry="220" fill="url(#glow)"/>
 <path d="M70 75H114" stroke="#6cf4d6" stroke-width="3" stroke-linecap="round"/>
-<text x="130" y="81" fill="#91a9bc" font-family="system-ui,Arial,sans-serif" font-size="17" letter-spacing="3">CREATIVE INTELLIGENCE / V3.0</text>
+<text x="130" y="81" fill="#91a9bc" font-family="system-ui,Arial,sans-serif" font-size="17" letter-spacing="3">CREATIVE INTELLIGENCE / V4.0</text>
 <text x="67" y="168" font-family="system-ui,Arial,sans-serif" font-size="78" font-weight="750" letter-spacing="-3" fill="#f3f8ff">Video<tspan fill="#6cf4d6">Guard</tspan></text>
 <text x="72" y="215" fill="#c0d1e1" font-family="system-ui,Arial,sans-serif" font-size="27">AI image &amp; video preflight engine</text>
 <text x="72" y="255" fill="#91a9bc" font-family="system-ui,Arial,sans-serif" font-size="18">Think before you generate. Protect your creative intent and budget.</text>

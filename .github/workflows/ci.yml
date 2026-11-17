@@ -25,3 +25,7 @@ jobs:
         run: python scripts/guard.py preflight tests/example-brief.json
       - name: Preview Higgsfield cost command
         run: python scripts/higgsfield_quote.py tests/example-quote.json
+      - name: Studio storyboard smoke test
+        run: python scripts/studio.py storyboard tests/studio-example.json
+      - name: Paired trial smoke test
+        run: python scripts/studio.py compare tests/trial-example.json

@@ -1,7 +1,4 @@
-Local Python unittest run: 2026-11-17
-Command: python -m unittest discover -s tests -v
-
-Ran 36 tests
+VideoGuard v4.0 local verification: python -m unittest discover -s tests -v
+Ran 56 tests
 OK
-
-Scope: offline deterministic Python tests. The live Claude skill, provider CLI and measured credit savings have not yet been validated.
+Offline deterministic tests only. Live Claude/Higgsfield compatibility and savings unmeasured.

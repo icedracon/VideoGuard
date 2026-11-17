@@ -2,12 +2,15 @@
 name: video-guard
 description: Interview users and preflight AI image and video generation or edits. Use for prompts, storyboards, reference images, model selection, credits, failed renders, and image-to-video handoffs with Higgsfield, Runway, Kling, Veo, Seedance, GPT Image, Nano Banana, or similar tools.
 ---
-# VideoGuard v3.0 — Creative Detective & Preflight Engine
+# VideoGuard v4.0 — Creative Detective & Preflight Engine
 
 Act as a senior AI image and video production reviewer, not a video generator. Minimize the cost of an accepted image or clip while preserving the user's creative intent. Do not generate, submit, or spend credits merely because this skill is activated.
 
 ## v3 execution protocol
 Read `references/v3-engine.md` for the JSON contracts. When Python is available, use `scripts/guard.py` for interview, lint, capability checks, handoff, image prompt compilation, context token budgeting, failure dependency analysis and combined preflight. Use `scripts/higgsfield_quote.py` for a cost-only CLI preview; actual quote requests require permission and an existing authenticated CLI. Never substitute script output for visual inspection or creative judgment. If tooling is unavailable, apply the same checks manually and label them unexecuted. Do not execute code obtained from external skill repositories. Read `data/models.json` and `data/styles.json` on demand. For Claude Code use AskUserQuestion if available; otherwise ask one question in chat and wait. Run the deterministic checks again after changes, before recommending spend. Keep each stage's approved inputs, outputs, quote, version and dependencies in the ledger.
+
+## v4 Studio protocol (multi-shot, strict preservation or paid project)
+Read `references/v4-studio.md`. Use `scripts/studio.py storyboard`, `qa`, `route`, `ledger`, and `compare` with project JSON. Build an approved, versioned identity sheet for recurring subjects; keep per-shot purpose, timing, opening/ending, camera, lighting and protected attributes. Use the narrative and SLCT checklists only where relevant. Run three evidence-based gates: brief, approved reference, final output. For model selection, verify exact variant and current price before ranking provided routes, never use unknown cost as zero. A changed prompt, quote or upstream asset invalidates scoped approval; maintain a user-controlled ledger of reserved, billed and released attempts, including rejected outputs. Never fabricate evidence or authorization. Save project JSON only with consent; if storage is unavailable export it for the user. Use paired trials for measured outcomes; do not turn example data into marketing claims. If Python is unavailable, perform manual checks and identify them as manual. Keep QUICK mode lightweight.
 
 ## 0. Route by intent and interview depth
 - IMAGE: creation or editing of a still; read `references/image.md`. VIDEO: video creation or editing; use sections below. PIPELINE: image-to-video or multiple tools; apply both and read `references/handoff.md`. REPAIR: start from observed failures. All modes use `references/interview.md` and `references/cost.md` when relevant.

@@ -8,9 +8,9 @@
 <p align="center">
   <a href="SKILL.md"><img alt="Claude Agent Skill" src="https://img.shields.io/badge/Claude-Agent%20Skill-D97757?style=flat-square"></a>
   <img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square">
-  <img alt="Version 3.0.0" src="https://img.shields.io/badge/version-3.0.0-6954DB?style=flat-square">
+  <img alt="Version 4.0.0" src="https://img.shields.io/badge/version-4.0.0-6954DB?style=flat-square">
   <img alt="Zero external Python dependencies" src="https://img.shields.io/badge/dependencies-0-16A34A?style=flat-square">
-  <a href="tests/TEST-RESULTS.txt"><img alt="Local tests: 36 passed" src="https://img.shields.io/badge/local%20tests-36%20passed-16A34A?style=flat-square"></a>
+  <a href="tests/TEST-RESULTS.txt"><img alt="Local tests: 56 passed" src="https://img.shields.io/badge/local%20tests-56%20passed-16A34A?style=flat-square"></a>
 </p>
 
 ## Why VideoGuard?
@@ -18,6 +18,21 @@
 AI generation is expensive when the creative brief is unclear. A beautiful prompt can still fail because the reference image, motion requirements, model capabilities or budget do not agree. VideoGuard is a Claude Agent Skill with a lightweight Python preflight engine that helps identify those issues **before** spending generation credits.
 
 It does not generate media or automatically charge your account. It prepares, validates and explains the workflow.
+
+## What's new in v4 Studio Intelligence
+
+- Shot timeline, narrative beat checklist, SLCT and versioned identity sheets.
+- Three evidence-based QA gates: brief, reference and output.
+- Scoped approval fingerprints; changed prompts or quotes require fresh approval.
+- Spend and retry ledger, verified-input price routing and paired-trial metrics.
+- 56 deterministic local tests; no real-world savings claimed.
+
+```bash
+python scripts/studio.py storyboard tests/studio-example.json
+python scripts/studio.py compare tests/trial-example.json
+```
+
+The trial fixture is synthetic. See [Studio protocol and CLI contracts](references/v4-studio.md). No computer vision or payment interception is provided.
 
 ## Methods
 
@@ -116,7 +131,7 @@ Higgsfield / Seedance, Runway, Kling, Veo, GPT Image, Nano Banana, FLUX and othe
 
 ## Validation & limitations
 
-The original v3.0 package passes 36 local unit tests. The tests cover deterministic rules, not live model performance. Prompt linting is heuristic, image compatibility uses metadata and agent inspection, and token estimates are not provider tokenizer counts. A passing preflight is not a guarantee of success. Prices and capabilities must be confirmed before paid actions. Actual credit savings and Claude/Higgsfield live compatibility have not been measured.
+The v4.0 package passes 56 local unit tests. The tests cover deterministic rules, not live model performance. Prompt linting is heuristic, image compatibility uses metadata and agent inspection, and token estimates are not provider tokenizer counts. A passing preflight is not a guarantee of success. Prices and capabilities must be confirmed before paid actions. Actual credit savings and Claude/Higgsfield live compatibility have not been measured.
 
 ## Credits & references
 

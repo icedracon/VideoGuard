@@ -10,3 +10,9 @@ Independent implementation inspired by publicly documented approaches; no extern
 - Gemini Image prompting: https://deepmind.google/models/gemini-image/prompt-guide/
 - Runway model input constraints: https://docs.dev.runwayml.com/assets/inputs/
 Model schemas and prices change; consult current official documentation at point of use.
+
+## v4 design references
+- Serge Shima — https://github.com/smixs/visual-skills (CC BY 4.0; narrative checklist adapted in our own wording).
+- https://github.com/Creatify-AI/ai-ad-prompt-guide (SLCT and staged quality review inspiration).
+- https://github.com/Square-Zero-Labs/video-prompting-skill (identity sheet and handoff workflow).
+No upstream code imported.
