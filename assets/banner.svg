@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="410" viewBox="0 0 1280 410" role="img" aria-labelledby="title desc">
+<title id="title">VideoGuard — AI Image and Video Preflight</title>
+<desc id="desc">Dark cinematic banner with a shield and play icon, and a five-step workflow: interview, compile, validate, budget, approve.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080e1d"/><stop offset="1" stop-color="#14263a"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6cf4d6"/><stop offset="1" stop-color="#49a8fe"/></linearGradient>
+ <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#9bb4c9" stroke-opacity=".075"/></pattern>
+ <radialGradient id="glow"><stop stop-color="#2577a6" stop-opacity=".38"/><stop offset="1" stop-color="#2577a6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="410" rx="22" fill="url(#bg)"/>
+<rect width="1280" height="410" rx="22" fill="url(#grid)"/>
+<ellipse cx="1035" cy="135" rx="250" ry="220" fill="url(#glow)"/>
+<path d="M70 75H114" stroke="#6cf4d6" stroke-width="3" stroke-linecap="round"/>
+<text x="130" y="81" fill="#91a9bc" font-family="system-ui,Arial,sans-serif" font-size="17" letter-spacing="3">CREATIVE INTELLIGENCE / V3.0</text>
+<text x="67" y="168" font-family="system-ui,Arial,sans-serif" font-size="78" font-weight="750" letter-spacing="-3" fill="#f3f8ff">Video<tspan fill="#6cf4d6">Guard</tspan></text>
+<text x="72" y="215" fill="#c0d1e1" font-family="system-ui,Arial,sans-serif" font-size="27">AI image &amp; video preflight engine</text>
+<text x="72" y="255" fill="#91a9bc" font-family="system-ui,Arial,sans-serif" font-size="18">Think before you generate. Protect your creative intent and budget.</text>
+<g transform="translate(1010 157)">
+ <circle r="112" fill="#0b1c2c" stroke="#396078" stroke-width="1.4" stroke-dasharray="4 8"/>
+ <circle r="96" fill="none" stroke="#264a61" stroke-width="1.5"/>
+ <path d="M0 -91L76 -59V-3C76 47 43 78 0 99C-43 78 -76 47 -76 -3V-59Z" fill="#102b3b" stroke="url(#accent)" stroke-width="4"/>
+ <path d="M-22 -37L40 0L-22 37Z" fill="url(#accent)" stroke-linejoin="round"/>
+ <path d="M-62 57l16 15 27-33" fill="none" stroke="#6cf4d6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M70 292H1210" stroke="#2b4055"/>
+<g font-family="system-ui,Arial,sans-serif" font-size="16" font-weight="600">
+ <g transform="translate(70 320)"><rect width="210" height="49" rx="8" fill="#142a3b" stroke="#31576a"/><circle cx="25" cy="25" r="11" fill="#6cf4d6"/><text x="25" y="29" font-size="11" text-anchor="middle" fill="#071323">1</text><text x="47" y="30" fill="#e7f1fa">INTERVIEW</text></g>
+ <g transform="translate(300 320)"><rect width="210" height="49" rx="8" fill="#142a3b" stroke="#31576a"/><circle cx="25" cy="25" r="11" fill="#6cf4d6"/><text x="25" y="29" font-size="11" text-anchor="middle" fill="#071323">2</text><text x="47" y="30" fill="#e7f1fa">COMPILE</text></g>
+ <g transform="translate(530 320)"><rect width="210" height="49" rx="8" fill="#142a3b" stroke="#31576a"/><circle cx="25" cy="25" r="11" fill="#6cf4d6"/><text x="25" y="29" font-size="11" text-anchor="middle" fill="#071323">3</text><text x="47" y="30" fill="#e7f1fa">VALIDATE</text></g>
+ <g transform="translate(760 320)"><rect width="210" height="49" rx="8" fill="#142a3b" stroke="#31576a"/><circle cx="25" cy="25" r="11" fill="#6cf4d6"/><text x="25" y="29" font-size="11" text-anchor="middle" fill="#071323">4</text><text x="47" y="30" fill="#e7f1fa">BUDGET</text></g>
+ <g transform="translate(990 320)"><rect width="220" height="49" rx="8" fill="#12433e" stroke="#6cf4d6"/><circle cx="25" cy="25" r="11" fill="#6cf4d6"/><text x="25" y="29" font-size="11" text-anchor="middle" fill="#071323">5</text><text x="47" y="30" fill="#e7f1fa">APPROVE</text></g>
+</g>
+</svg>

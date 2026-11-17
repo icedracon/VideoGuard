@@ -1,0 +1,10 @@
+{
+ "nano-banana": {"kind":"image","modes":["text-to-image","image-edit"],"source":"https://deepmind.google/models/gemini-image/prompt-guide/","note":"Family profile; verify exact variant and limits."},
+ "gpt-image": {"kind":"image","modes":["text-to-image","image-edit"],"note":"Verify exact provider variant."},
+ "flux": {"kind":"image","modes":null,"note":"Variant-dependent."},
+ "seedance": {"kind":"video","modes":null,"note":"Verify provider model schema; family only."},
+ "runway": {"kind":"video","modes":null,"source":"https://docs.dev.runwayml.com/assets/inputs/","note":"Platform profile, not an exact model."},
+ "kling": {"kind":"video","modes":null},
+ "veo": {"kind":"video","modes":null},
+ "higgsfield": {"kind":null,"modes":null,"source":"https://higgsfield.ai/blog/higgsfield-cli","note":"Platform; discover exact model and quote before spend."}
+}
